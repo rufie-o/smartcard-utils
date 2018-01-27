@@ -5,6 +5,7 @@ from scipy.cluster.setup import DEFINE_MACROS
 statusWordFileName = '../APDUresponses.csv'
 
 def getStatusWordType(sw1,sw2):
+    # SW1 is always a bye hex code; sw may contain a byte, a nibble or no hex code.
     if (len(sw2)==2):
         if (sw2[0] in hexdigits):
              if  (sw2[1] in hexdigits):
