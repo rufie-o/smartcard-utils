@@ -107,7 +107,7 @@
 6B;XX;E;Reference incorrect (procedure byte), (ISO 7816-3);;;
 6C;--;E;Wrong length Le;;;
 6C;0;E;Incorrect P3 length.;;;
-6C;XX;E;"Bad length value in Le; 'xx' is the correct exact Le";;;
+6C;XX;E;Bad length value in Le; 'xx' is the correct exact Le;;;
 6D;--;E;;;;
 6D;0;E;Instruction code not supported or invalid;;;
 6D;XX;E;Instruction code not programmed or invalid (procedure byte), (ISO 7816-3);;;
